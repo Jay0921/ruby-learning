@@ -51,6 +51,12 @@ end
 
 person = Person.new(name: "John")
 person.save
+# "This will run first"
+# "This will run second"
+# "This will run third"
+# "Saving the model..."
+# "This will run fourth"
+# "This will run fifth"
 
 p person.inspect
-# <Person:0x000000010ffe0870 @name=\"JOHN DOE JR.\">
+# "#<Person:0x000000010b9a0478 @name=\"JOHN DOE JR.\">"
