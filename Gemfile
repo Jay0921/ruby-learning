@@ -2,4 +2,4 @@
 
 ruby File.read(".ruby-version")
 
-gem "rails", "~> 7.1.3.3"
+gem "rails", "~> 8.0.2"
