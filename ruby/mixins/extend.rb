@@ -42,7 +42,7 @@ puts Service.singleton_class.ancestors.inspect
 # [#<Class:Service>, Debug, Logging, #<Class:Object>, #<Class:BasicObject>, Class, Module, Object, Kernel, BasicObject]
 
 Service.log('Hello, world!')
-# Logging: Hello, world!
+# Service: Hello, world!
 
 Service.debug('Hello, world!')
 # Debug: Hello, world!
